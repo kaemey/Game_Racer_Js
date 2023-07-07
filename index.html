@@ -1,0 +1,45 @@
+<html>
+<head>
+<link href="css/main.css" rel="stylesheet">
+</head>
+<body>
+
+<div id="menu">
+	<table>
+	<tr>
+		<td id="hello">Добро пожаловать в игру!</td>
+	</tr>
+	<tr>
+		<td>Управление: WASD</td>
+	</tr>
+	<tr>
+		<td><button id="start" onclick="Animate()">Старт</button></td>
+	</tr>
+</table>
+</div>
+
+<table>
+	<tr>
+		<td><canvas id="canv" width="800" height="640">123</canvas></td>
+		<td style="vertical-align:top;">
+			<div id="scores_div">
+				<table id="table_width_scores">
+				</table>
+			</div>
+		</td>
+	</tr>
+	<tr>
+		<td align="center"><button id="pause" onclick="Animate()" disabled>Пауза</button></td>
+	</tr>
+	<tr>
+		<td align="center"><p id="scoresP">Ваши очки: 0</p></td>
+	</tr>	
+	
+</table>
+</table>
+
+
+	
+<script src="js/app.js"></script>
+</body>
+</html>
