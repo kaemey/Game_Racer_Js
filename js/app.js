@@ -495,22 +495,22 @@ document.addEventListener("keyup", (e) => {
 
 //Создаём объекты по-умолчанию
 grow = new GameObject('grow', 0, 0);
-grow.image.src = "src/Grow.png";
+grow.image.src = "src/grow.png";
 
 grow2 = new GameObject('grow', 0, -700);
-grow2.image.src = "src/Grow.png";
+grow2.image.src = "src/grow.png";
 
 road = new GameObject('road', 212.5, 0);
-road.image.src = "src/Road.png";
+road.image.src = "src/road.png";
 
 road2 = new GameObject('road', 212.5, 512);
 road2.image.src = "src/Road.png";
 
 road3 = new GameObject('road', 212.5, -512);
-road3.image.src = "src/Road.png";
+road3.image.src = "src/road.png";
 
 player = new GameObject('player', canvas.width / 2 -16, canvas.height - 100);
-player.image.src = "src/RacingCar.png";
+player.image.src = "src/racingcar.png";
 
 pressing_buttons = [];
 
